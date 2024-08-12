@@ -18,4 +18,5 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka
 app:
-  gateway: http://localhost:9000
+  url-servicio-vuelo: http://localhost:9000/wsvuelo
+  url-servicio-hotel: http://localhost:9000/wshotel
