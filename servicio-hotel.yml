@@ -13,7 +13,7 @@ server:
 eureka:
   instance:
     instance-id: servicio-hotel
-    hostname: 172.25.104.223
+    hostname: localhost
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka
